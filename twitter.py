@@ -16,7 +16,7 @@ while True:
   user = api.get_user('ammarmanna3')
   n = user.followers_count
   api.update_profile(name =f'nitin {n} followers ')
-  print(f'NITIN {n} Followers}
+  print(f'NITIN {n} Followers')
   time.sleep(60)
         
                      
